@@ -1,0 +1,116 @@
+@import "normalize.css";
+
+@font-face {
+    font-family: 'MavenPro';
+    src: url('../webfonts/maven_pro_regular-webfont.eot');
+    src: url('../webfonts/maven_pro_regular-webfont.eot?#iefix') format('eot'),
+         url('../webfonts/maven_pro_regular-webfont.woff') format('woff'),
+         url('../webfonts/maven_pro_regular-webfont.ttf') format('truetype'),
+         url('../webfonts/maven_pro_regular-webfont.svg#webfontOM8fITNz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+Global
+*/
+
+html, body {
+	background: url('../images/background.png');
+	display: table;
+	font: normal 100% 'MavenPro', Arial, sans-serif;
+	height: 100%;
+	margin: 0 auto;
+	text-shadow: 0 2px 2px #fff;
+	width: 400px;
+	-webkit-text-size-adjust: none; 
+}
+
+h1 {
+	color: #535252;
+	font-size: 1.714em;
+	font-weight: normal;
+	margin-bottom: 8px;
+	letter-spacing: -1px;
+}
+
+h2 {
+	color: #999;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+.wrapper {
+	display: table-cell;
+	font-size: 0.875em;
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+}
+
+/*
+Header
+*/
+
+header {
+	background: url('../images/g.png') no-repeat 50% 20px;
+	margin-bottom: 90px;
+	padding-top: 187px;
+	text-align: center;
+}
+
+/*
+Social
+*/
+
+#social {
+	background: url('../images/social-background.png') no-repeat center top;
+	height: 47px;
+	margin: 0 auto 6px;
+	padding: 16px 0 0;
+	text-align: center;
+	width: 400px;
+}
+
+#social a {
+	background: url('../images/social.png') no-repeat 0 0;
+	display: inline-block;
+	height: 35px;
+	margin: 0 5px;
+	overflow: hidden;
+	text-indent: -666em;
+	width: 35px;
+}
+
+#social #facebook { background-position: 0 0 }
+	#social #facebook:hover { background-position: 0 -35px }
+	
+#social #twitter { background-position: -86px 0 }
+	#social #twitter:hover { background-position: -86px -35px }
+	
+#social #lastfm { background-position: -44px 0 }
+	#social #lastfm:hover { background-position: -44px -35px }
+	
+#social #linkedin { background-position: -129px 0 }
+	#social #linkedin:hover { background-position: -129px -35px }
+	
+/*
+Footer
+*/
+
+footer {
+	color: #808080;
+	letter-spacing: -1px;
+	padding: 0 0 20px;
+	text-align: center;
+}
+
+footer a {
+	color: #808080;
+	text-decoration: none;
+}
+
+	footer a:hover {
+		color: #555;
+		text-decoration: underline;
+	}
